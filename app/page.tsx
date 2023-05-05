@@ -14,6 +14,7 @@ export default async function Home() {
           <Image src={fireGif} alt="Animated fire" />
         </div>
         <h1>Good Old Times</h1>
+        Bleeding-edge Web 1.0
         <Suspense>
           {/* @ts-expect-error Async Server Component */}
           <VisitorCounter />
